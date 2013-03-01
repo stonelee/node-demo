@@ -1,0 +1,23 @@
+{
+  "name": "node-demo",
+  "description": "node demo",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Stone Lee <istonelee@gmail.com> (http://stonelee.info)",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "jade": "latest",
+    "mongoose": "latest",
+    "connect-mongo": "latest",
+    "connect-flash": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "underscore": "latest",
+    "gzippo": "latest",
+    "async": "latest",
+    "nodemon": "latest"
+  }
+}
